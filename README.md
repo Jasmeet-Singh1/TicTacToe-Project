@@ -1,3 +1,3 @@
-# Simon Game Project
-This is a memory pattern game with sounds included created with the help of javascript framework React
+# TicTacToe Project
+No intro needed for this game, we all played it in our childhood
  
