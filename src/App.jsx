@@ -1,9 +1,9 @@
-import Game from './Components/Game';
+import TicTacToe from './Components/TicTacToe';
 
 function App() {
   return (
-    <div id='mainDiv' className='bg mainDiv' style={{ backgroundColor: '#011f3f' }}>
-      <Game />
+    <div className='mainDiv'>
+      <TicTacToe />
     </div>
   );
 }

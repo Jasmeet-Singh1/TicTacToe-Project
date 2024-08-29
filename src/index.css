@@ -1,22 +1,10 @@
 * {
-  font-family: 'Open Sans', sans-serif, 'Press Start 2P';
-}
-.press-start-2p-regular {
-  font-family: 'Press Start 2P', system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-.header {
-  font-size: 3rem;
-  color: #fef2bf;
-  display: flex;
-  width: 100%;
-  margin-top: 95px;
-  margin-left: 480px;
+  font-family: 'Poppins';
 }
 .headerDiv {
   display: flex;
 }
+
 @keyframes width {
   0% {
     width: 100%;
@@ -53,47 +41,98 @@
   }
 }
 
-.bg {
-  background-color: #011f3f;
-}
 body {
   margin: 0px;
+  background-color: #5a1e76;
+}
+
+.img {
+  height: 300px;
+  width: 310px;
+}
+
+.middleDiv {
+  display: flex;
+  background-color: #2b0040;
+  height: 600px;
+  width: 400px;
+  margin: auto;
+  border-radius: 25px;
+  margin-top: 50px;
 }
 
 .mainDiv {
+  display: flex;
+  flex-direction: column;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  gap: 90px;
-}
-.TopDiv {
-  display: flex;
-  flex-direction: column;
-  margin-left: 680px;
-}
-.middleDiv {
-  display: flex;
-  gap: 30px;
 }
 
-.btn {
-  margin: 25px;
-  display: inline-block;
-  height: 200px;
-  width: 200px;
-  border: 10px solid black;
-  border-radius: 20%;
+.wholeDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+.firstRow {
+  display: flex;
+  gap: 10px;
+  margin: 55px 0 0 88px;
 }
 
-.green {
-  background-color: green;
+.boxes {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  border-radius: 5px;
 }
-.red {
-  background-color: red;
+
+.first {
+  background-color: #48d2fe;
 }
-.yellow {
-  background-color: yellow;
+.second {
+  background-color: #bcdbf9;
 }
-.blue {
-  background-color: blue;
+.third {
+  background-color: #e2be00;
+}
+
+.boxesInsideDiv {
+  display: flex;
+  margin-left: 8px;
+  margin-top: 12px;
+  flex-direction: column;
+  font-weight: 900;
+}
+.text {
+  font-size: smaller;
+}
+.number {
+  display: flex;
+  margin-left: 19px;
+  font-size: x-large;
+}
+
+.smallEmptyBoxes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 81px;
+}
+.line {
+  display: flex;
+  gap: 15px;
+}
+
+.smallBoxes {
+  display: flex;
+  background-color: #43115b;
+  height: 70px;
+  width: 70px;
+  border-radius: 4px;
+  font-size: xxx-large;
+  font-weight: 600;
+}
+
+.values {
+  display: flex;
+  margin-left: 17px;
 }
