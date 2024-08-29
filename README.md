@@ -1,2 +1,3 @@
-# free-scribe-jass
- A free scribing app (machine learning)
+# Simon Game Project
+This is a memory pattern game with sounds included created with the help of javascript framework React
+ 
